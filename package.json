@@ -3,6 +3,16 @@
   "description": "An Angular directive for nested forms that prevents $invalid from propagating",
   "version": "1.0.1",
   "author": "91K00",
+  "bugs": {
+    "url": "https://github.com/nmutalik/isolate-form/issues",
+    "email": "nmutalik@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Nikhil Mutalik",
+      "email": "nmutalik@gmail.com"
+    }
+  ],
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-nice-package": "0.9.3",
@@ -12,6 +22,7 @@
     "node": "0.12.7",
     "npm": "2.11.3"
   },
+  "homepage": "https://github.com/nmutalik/isolate-form.git",
   "keywords": [
     "angular",
     "directive",
