@@ -1,7 +1,7 @@
 {
   "name": "isolate-form",
   "description": "An Angular directive for nested forms that prevents $invalid from propagating",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "91K00",
   "bugs": {
     "url": "https://github.com/nmutalik/isolate-form/issues",
