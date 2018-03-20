@@ -20,8 +20,6 @@
     "pre-git": "^0.6.2"
   },
   "engines": {
-    "node": "^0.12.7",
-    "npm": "2.11.3"
   },
   "homepage": "https://github.com/nmutalik/isolate-form.git",
   "keywords": [
@@ -40,14 +38,5 @@
   "scripts": {
     "nice": "grunty grunt-nice-package nice-package",
     "test": "node-qunit *.js"
-  },
-  "pre-commit": [
-    "npm version"
-  ],
-  "post-commit": "git status",
-  "pre-push": [
-    "rm -rf node_modules",
-    "npm install"
-  ],
-  "post-merge": "npm install"
+  }
 }
